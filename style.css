@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+:root{
+    --bg-color : #D6EC8C;
+    --color-one : #2E9F82;
+    --color-two : #515661;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Poppins';
+}
+
+.main-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    justify-items: center;
+    gap: 20px;
+}
+
+.dish-name{
+    color: var(--color-one);
+    letter-spacing: 2px;
+}
+
+.dish-image{
+    height: 350px;
+    border: 2px solid var(--color-two);
+    border-radius: 6px;
+}
+
+.dish-info{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-two);
+    letter-spacing: 2px;
+}
+
+h3{
+    color: var(--color-one);
+}
+
+p{
+    color: var(--color-two);
+    letter-spacing: 2px;
+}
+
+.dish-instructions-container > h3{
+    margin-bottom: 20px;
+}
+
+.dish-instructions-container{
+   text-align: center;
+   max-width: 800px;
+}
+
+.ingredient-container > h4{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+th{
+    padding-bottom: 20px;
+    color: var(--color-one);
+    font-weight: bold;
+    letter-spacing: 2px;    
+}
+
+td{
+    padding: 5px 100px;
+    color: var(--color-two);
+    letter-spacing: 2px;
+}
+
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+}
+
+button{
+    background-color: var(--color-one);
+    color: whitesmoke;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: var(--color-two);
+}
+
+.btn-after-data{
+    margin-top: 80px;
+}
