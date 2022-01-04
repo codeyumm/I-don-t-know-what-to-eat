@@ -110,3 +110,36 @@ button:hover{
 .btn-after-data{
     margin-top: 80px;
 }
+
+@media all and (max-width: 680px) { 
+
+
+    .dish-name{
+        letter-spacing: 2px;
+    }
+
+    .dish-image{
+        height: 250px;
+    }
+
+    .dish-info{
+        width: 250px;
+    }
+    .dish-instructions-container>h3{
+        text-align: center;
+    }
+    .dish-instructions-container{
+        max-width: 320px;
+        text-align: justify;
+     }
+
+     td{
+        padding: 5px 60px;
+    }
+
+    button{
+        margin-bottom: 50px;
+    }
+
+
+}
