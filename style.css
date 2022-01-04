@@ -115,7 +115,8 @@ button:hover{
 
 
     .dish-name{
-        letter-spacing: 2px;
+        letter-spacing: 0.5px;
+        font-size: 26px;
     }
 
     .dish-image{
@@ -140,6 +141,5 @@ button:hover{
     button{
         margin-bottom: 50px;
     }
-
 
 }
